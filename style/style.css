@@ -1,0 +1,15 @@
+
+/* Image crop */
+
+.crop-container {
+  width: 100%; /* Largeur du conteneur */
+  height: 100vh; /* Hauteur du conteneur */
+  overflow: hidden; /* Masque tout ce qui dépasse */
+  position: relative;
+}
+
+.crop-container img {
+  width: 100%; /* Ajuste l'image à la largeur du conteneur */
+  height: 100%; /* Ajuste l'image à la hauteur du conteneur */
+  object-fit: cover; /* Couvre tout le conteneur sans déformer l'image */
+}
