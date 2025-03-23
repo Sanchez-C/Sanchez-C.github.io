@@ -13,3 +13,8 @@
   height: 100%; /* Ajuste l'image à la hauteur du conteneur */
   object-fit: cover; /* Couvre tout le conteneur sans déformer l'image */
 }
+
+.cropped-img {
+  object-fit: cover; /* Recadre l'image pour remplir le cadre */
+  object-position: -50px; /* Centre l'image horizontalement */
+}
